@@ -1,0 +1,25 @@
+php artisan serve
+
+php artisan make:(
+controller,
+model,
+middleware
+)
+
+
+seeder:
+
+php artisan (
+db:seed
+migrate:fresh
+
+migrate:fresh --seed
+)
+
+php artisan storage:link - sekil yuklemek ucun
+
+php -S localhost:8000 -t public/  - php artisan problem
+
+image sort---------
+1)jquery-sortable - https://api.jqueryui.com/sortable/
+2)https://github.com/iksaku/laravel-mass-update
